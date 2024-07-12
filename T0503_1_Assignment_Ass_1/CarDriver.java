@@ -3,7 +3,7 @@ package T0503_1_Assignment_Ass_1;
 /**
  * CarDriver.java
  * Efemona Avre
- * Assignment 2: Aggregation and Compensation - Car Program (Graded)
+ * Assignment 1: Aggregation and Compensation - Car Program (Graded)
  * 
  * This class contains the main method to test the Car, NewCar, and UsedCar classes.
  */

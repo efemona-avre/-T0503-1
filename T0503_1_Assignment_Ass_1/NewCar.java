@@ -3,7 +3,7 @@ package T0503_1_Assignment_Ass_1;
 /**
  * NewCar.java
  * Efemona Avre
- * Assignment 2: Aggregation and Compensation - Car Program (Graded)
+ * Assignment 1: Aggregation and Compensation - Car Program (Graded)
  * 
  * This class models a new car, extending the Car class.
  * It adds an attribute for the color of the car.

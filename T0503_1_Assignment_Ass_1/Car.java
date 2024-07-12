@@ -6,7 +6,7 @@ package T0503_1_Assignment_Ass_1;
 /**
  * Car.java
  * Efemona Avre
- * Assignment 2: Aggregation and Compensation - Car Program (Graded)
+ * Assignment 1: Aggregation and Compensation - Car Program (Graded)
  * 
  * This class models a car. 
  * This model will serve as a superclass for used and new cars, 
