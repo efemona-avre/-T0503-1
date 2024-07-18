@@ -1,3 +1,12 @@
+/**
+ * 
+ * Employee.java
+ * Efemona Avre
+ * Assignment 3: T0503-1
+ * Represents an Hourly Employee extending the Employee class.
+ * Includes hourly pay rate and hours worked for the past week.
+ */
+
 package T0503_1_Assignment_Ass_3;
 
 import java.util.Scanner;
@@ -12,7 +21,14 @@ public class Hourly extends Employee {
     public static final double MAX_HOURLY_PAY = 99.99;
     public static final int MAX_HOURS_WORKED = 40;
     public static final double OVERTIME_RATE = 1.5;
-
+    
+    /**
+     * Loads hourly employee information from user input.
+     * Prompts for hourly pay rate and hours worked.
+     * Ensures valid input for each field.
+     *
+     * @param scan Scanner object to read user input
+     */
     void load(Scanner scan) {
         super.load(scan);
 
@@ -69,7 +85,11 @@ public class Hourly extends Employee {
             }
         }
     }
-
+    
+    /**
+     * Calculates earnings for an hourly employee.
+     * Includes regular pay and overtime pay if applicable.
+     */
     @Override
     public void getEarnings() {
         double regularEarnings = this.hourlyPay * this.hoursWorked;
